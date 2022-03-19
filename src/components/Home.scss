@@ -1,0 +1,9 @@
+.home-header {
+  background-position: 50%;
+  background: url("../assets/header1.jpg") no-repeat center center;
+  // height: calc(100vh - 102px);
+
+  .header-overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+}
