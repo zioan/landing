@@ -13,27 +13,6 @@ import Services from "./components/Services";
 import Team from "./components/Team";
 import Testimonial from "./components/Testimonial";
 
-// function Router() {
-//   return (
-//     <BrowserRouter>
-//       <Navbar />
-//       <Switch>
-//         <Route exact path="/" component={Home} />
-//         <Route exact path="/about" component={About} />
-//         <Route exact path="/service" component={Services} />
-//         <Route exact path="/gallery" component={Gallery} />
-//         <Route exact path="/team" component={Team} />
-//         <Route exact path="/pricing" component={Pricing} />
-//         <Route exact path="/testimonial" component={Testimonial} />
-//         <Route exact path="/contact" component={Contact} />
-//       </Switch>
-//       <Footer />
-//     </BrowserRouter>
-//   );
-// }
-
-// export default Router;
-
 function Router() {
   return (
     <BrowserRouter>

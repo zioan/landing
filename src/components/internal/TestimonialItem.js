@@ -12,9 +12,6 @@ function TestimonialItem({ img, name, description }) {
             <div className="md:ml-6">
               <p className="text-gray-500 font-light mb-6">"{description}"</p>
               <p className="font-semibold text-xl mb-2 text-gray-800">{name}</p>
-              {/* <p className="font-semibold text-gray-500 mb-0">
-                Product manager
-              </p> */}
             </div>
           </div>
         </div>

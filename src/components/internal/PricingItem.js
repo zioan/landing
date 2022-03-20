@@ -44,7 +44,6 @@ function PricingItem({ title, description, price, listItems, feature }) {
                           ? "text-heading-yellow w-4 h-4 mr-2"
                           : "text-main-yellow w-4 h-4 mr-2"
                       }
-                      // className="text-main-yellow w-4 h-4 mr-2"
                       role="img"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 512 512"

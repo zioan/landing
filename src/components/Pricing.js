@@ -1,6 +1,5 @@
 import React from "react";
 import PricingItem from "./internal/PricingItem";
-// import "Pricing.scss";
 
 function Pricing() {
   const silverPlan = ["Indoor Air Quality", "Heater Repair", "Boilers"];
@@ -39,7 +38,6 @@ function Pricing() {
       {/* pricing */}
       <section className="container text-heading-color mx-auto">
         <div className="inline lg:flex flex-wrap gap-2 lg:gap-1 justify-center">
-          {/* item */}
           <PricingItem
             title="Silver Plan"
             description="It is a long established fact that a reader will be distracted."

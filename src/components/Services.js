@@ -6,7 +6,6 @@ import Services3 from "../assets/services (3).jpg";
 import Services4 from "../assets/services (4).jpg";
 import Services5 from "../assets/services (5).jpg";
 import Services6 from "../assets/services (6).jpg";
-// import "Services.scss";
 
 function Services() {
   const servicesData = [

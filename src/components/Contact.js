@@ -21,7 +21,7 @@ function Contact() {
           <p className=" max-w-[300px] mx-auto lg:mx-0">
             It is a long established fact that a reader will be distracted.
           </p>
-          <p className=" cursor-pointer text-main-yellow">
+          <p className=" cursor-pointer text-heading-yellow">
             example@example.com
           </p>
         </div>

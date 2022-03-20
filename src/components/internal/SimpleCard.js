@@ -1,5 +1,4 @@
 import React from "react";
-// import "SimpleCard.scss";
 
 function SimpleCard({ path, title, description }) {
   return (
