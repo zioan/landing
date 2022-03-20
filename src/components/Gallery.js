@@ -21,7 +21,7 @@ function Gallery() {
           </p>
         </div>
         <section>
-          <div className="lg:flex lg:space-x-6 mx-auto items-center justify-center">
+          <div className="lg:flex lg:space-x-6 mx-auto items-center justify-center p-2">
             <div>
               <div className="relative overflow-hidden bg-no-repeat bg-cover max-w-md my-6 mx-auto lg:mx-0">
                 <img
@@ -58,12 +58,14 @@ function Gallery() {
               <p className="text-transparent cursor-default text-2xl">&nbsp;</p>
               <p className="text-transparent cursor-default text-2xl">&nbsp;</p>
               <p className="text-transparent cursor-default text-2xl">&nbsp;</p>
+              <p className="text-transparent cursor-default text-2xl">&nbsp;</p>
+              <p className="text-transparent cursor-default text-2xl">&nbsp;</p>
 
               <h1 className="text-heading-yellow text-5xl font-bold mt-0 mb-6">
                 <span className=" text-heading-color">Don't </span>
                 <br /> wait the Summer!
               </h1>
-              <h1 className="text-heading-yellow text-5xl font-bold -mt-6 mb-6">
+              <h1 className="text-heading-yellow text-5xl font-bold -mt-10 mb-6">
                 <br />
                 Prepare for Summer!
               </h1>

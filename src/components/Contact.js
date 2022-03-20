@@ -26,7 +26,7 @@ function Contact() {
           </p>
         </div>
         <div className="block p-6 rounded-lg shadow-lg bg-white max-w-md mx-auto self-center lg:mb-10">
-          <form>
+          <form className="m-2">
             <div className="grid grid-cols-2 gap-4 text-heading-color">
               <div className="form-group mb-6">
                 <label htmlFor="exampleInput123">Name</label>
