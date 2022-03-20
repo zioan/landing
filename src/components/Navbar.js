@@ -1,15 +1,19 @@
-import React from "react";
+import React, { useRef } from "react";
 import { NavLink } from "react-router-dom";
 import Logo from "../assets/logo.white.png";
 
 function Navbar() {
-  const goToView = (id) => {
-    const selectedView = document.getElementById(id).offsetTop - 102;
+  const navRef = useRef(null);
 
+  const goToView = (id) => {
+    const selectedView = document.getElementById(id).offsetTop - 100;
     window.scrollTo({
       top: selectedView,
       behavior: "smooth",
     });
+    if (window.innerWidth < 992) {
+      navRef.current.click();
+    }
   };
 
   return (
@@ -24,6 +28,7 @@ function Navbar() {
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            ref={navRef}
           >
             <svg
               aria-hidden="true"
